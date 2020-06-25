@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+    <link rel="stylesheet" type="text/css" href="Animals.css"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+    <header>Animals</header>
+        <ul>
+      <li><a href="#">الصفحه الرئيسيه</a></li>
+      <li><a href="#"></i>صور للحيوانات الاليفه البحريه</a></li>
+      <li><a href="#"></i>صور للحيوانات الاليفه البريه</a></li>
+      <li><a href="#"></i>متجر حيوانات</a></li>
+      <li><a href="#"></i>متجر اكل الحيوانات</a></li>
+      <li><a href="pets.html"></i>نبذه عن الحيوانات الاليفه</a></li>
+      <li><a href="#"></i>الحيوانات التي من الممكن تربيتها بالبيت</a></li>
+      </ul>
+      </div>
+    <header>
+        <nav>
+            <!-- <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form> -->
+            <h1 class="h1"><b>Animals</b></h1>
+        <ul class="ul">
+            <!-- <li><a href="#">الحيوانات الاليفه</a></li>
+            <li><a href="#">الحيوانات الاليفه البريه</a></li>
+            <li><a href="#">الحيوانات الاليفه البحريه</a></li>
+            <li><a  href="#">الصفحه الرئيسيه</a></li> -->
+           
+             <li class="li"><img src="https://pbs.twimg.com/profile_images/659280714504929280/Bz7WrpzN.png" width="50px" class="img"></li> 
+             
+              </ul>
+            </nav>
+    </header>
+
+<center>
+<table>
+
+
+<tr>
+    <td><a href="#"><img src="https://opensooqui2.os-cdn.com/api/common/category/Birds.png"></a></td>
+    <td><a href="#"><img src="https://opensooqui2.os-cdn.com/api/common/category/Pigeons.png"></a></td>
+    <td><a href="#"></a><img src="https://opensooqui2.os-cdn.com/api/common/category/Chickens.png"></td>
+    <td><a href="Parrot.html"><img src="https://opensooqui2.os-cdn.com/api/common/category/Parrots.png"></td></a>
+   
+</tr>
+
+<tr>
+<td><a href="Rabbit.html"><img src="https://opensooqui2.os-cdn.com/api/common/category/Rabbits.png"></a></td>
+<td><a href="#"><img src="https://opensooqui2.os-cdn.com/api/common/category/Camels.png"></a></td>
+<td><a href="#"><img src="https://opensooqui2.os-cdn.com/api/common/category/Dogs.png"></a></td>
+<td><a href="#"><img src="https://opensooqui2.os-cdn.com/api/common/category/Turtles.png"></a></td>
+</tr>
+
+<tr>
+    
+    <td><a href="#"><img src="https://opensooqui2.os-cdn.com/api/common/category/Fish.png"></a></td>
+    <td><a href="#"><img src="https://opensooqui2.os-cdn.com/api/common/category/Cats.png"></a></td>
+    <td><a href="./horses.html"><img src="https://opensooqui2.os-cdn.com/api/common/category/Horses.png"></a></td>
+    <td><a href="#"><img src="https://opensooqui2.os-cdn.com/api/common/category/Hamsters.png"></a></td>
+</tr>
+
+
+
+</table>
+</center>
+
+
+
+   
+      
+
+    
+<center>
+    <footer class="footer">
+      <p> تواصل معنا عبر مواقع التواصل الاجتماعي</p>
+      <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTWEnmWwkzsfm80lxjkuZ8nNDY5lX6ecWk7KD2aQnrShS2CrsH4&usqp=CAU" width="50" height="50" class="e"></a>
+      <a href=""><img src="https://www.tech-wd.com/wd/wp-content/uploads/2013/01/Logo-Twitter.jpg.jpg" width="50" height="50" class="e"></a>
+
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal" class="t">&times;</span>
+      <form class="modal-content" action="/action_page.php">
+        <div class="container">
+          <h1>Sign Up</h1>
+          
+          <hr>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+    
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+         
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+</footer>
+</center>
+</body>
+</html>

@@ -1,0 +1,173 @@
+ 
+ body{
+  background-image: url(https://picturess.cc/wp-content/uploads/2018/09/429.jpg);
+  background-attachment: fixed;
+  background-repeat:  no-repeat;
+  background-size: 100% 100%;
+  
+}
+*{
+  margin: 0;
+  padding: 0px;
+}
+ 
+ .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    right: 0;
+    background-color: #282828;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f0c330;
+  }
+  
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } 
+/* البتن اللي تحت بعض */
+   .dropbtn {
+    
+    background-color: #76cb2d;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 150px;
+    margin-left: 8px;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+     background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #56a611;
+  }  
+  .btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    
+  }
+  
+  .btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  .btn-group .button:hover {
+    background-color: #3e8e41;
+  }
+
+/* .e{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 0px;
+} */
+
+.k{
+  margin-right: 200px;
+  margin-left: 10px;
+  color: black;
+  font-size: 23px;
+ background-color: white;
+ opacity: 0.85;
+ border-radius: 20px;
+ padding: 15px;
+ margin-top: 15px;
+}
+
+#h{
+  color: black;
+  margin-left: 70px;
+
+}
+
+.t {
+  width: 300px;
+  height: 300px;
+  transition: width 2s, height 2s, transform 2s;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.t:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.flex{
+  display: flex;
+
+}
+
+
+
+.div {
+  width: 180px;
+  height: 200px;
+  background-image: url(https://media.tenor.com/images/a7fb83f6db9db043131757733a638048/tenor.gif);
+  transition: width 1s;
+  margin-right: 130px;
+  margin-bottom: 20px;
+  
+}
+
+.div:hover {
+  width: 200px;
+}
